@@ -16,6 +16,6 @@ class ChatCubit extends Cubit<ChatState> {
     // boxChats.put(id, ChatSession(message: [state.buffer.toString()]));
     emit(ChatState(buffer: state.buffer));
   }
-  void refreshPage()=>emit(ChatState(buffer: state.buffer));
+  // void refreshPage()=>emit(ChatState(buffer: state.buffer));
 
 }
